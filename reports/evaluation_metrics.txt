@@ -1,0 +1,14 @@
+Best Params: {'svm__C': 10, 'svm__gamma': 0.005}
+5-Fold CV Macro-F1: 0.8381
+Validation Accuracy: 0.8457
+Validation Macro-F1: 0.8456
+
+              precision    recall  f1-score   support
+
+  background     0.8625    0.8846    0.8734       156
+         cat     0.8061    0.8750    0.8391       152
+         dog     0.8716    0.7818    0.8243       165
+
+    accuracy                         0.8457       473
+   macro avg     0.8467    0.8471    0.8456       473
+weighted avg     0.8475    0.8457    0.8453       473
